@@ -1,0 +1,9 @@
+/.idea/
+/node_modules/
+/grunt/
+/build/spec/
+/DRAFT/
+/.npmignore
+/*.bat
+/.travis.yml
+/.gitignore

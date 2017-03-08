@@ -1,0 +1,36 @@
+{
+  "name": "urequire-rc-js-to-json",
+  "description": "uRequire RC for 'js-to-json'. Converts a .js value (eg its `module.exports` value) to a .json file. Works with .coffee, .ts, .co, AMD, commonJs etc. It runs at the `afterSave` stage for each module, it requires the destination .js module, then it JSON.stringify it and deletes the dst .js file.",
+  "version": "0.1.0",
+  "main": "./source/code/urequire-rc-js-to-json.coffee",
+  "homepage": "http://uRequire.org",
+  "author": {
+    "name": "Agelos Pikoulas",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "urequire",
+    "js-to-json",
+    "json",
+    "resource",
+    "converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anodynos/urequire-rc-js-to-json"
+  },
+  "bugs": {
+    "url": "http://github.com/anodynos/urequire-rc-js-to-json/issues",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "preferGlobal": false,
+  "peerDependencies": {
+    "urequire": "~0.7.0-beta.33"
+  }
+}
